@@ -32,7 +32,7 @@ mse = mean_squared_error(y_val, y_pred)
 r2 = r2_score(y_val, y_pred)
 
 print(f"Mean Squared Error: {mse}")
-print(f"R-squared: {r2}")
+print(f"R-square: {r2}")
 
 test_predictions = model.predict(test_data_scaled)
 
