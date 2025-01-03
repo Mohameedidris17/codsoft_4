@@ -13,4 +13,4 @@ test_data_without_column = test_data.drop(columns=[column_to_exclude])
 train_data.to_csv('advertising_train.csv', index=False)
 test_data_without_column.to_csv('advertising_test.csv', index=False)
 
-print("Train and test datasets have been created and saved as 'advertising_train.csv' and 'advertising_test.csv'.")
+print("Train and test datasets have been created and saved as 'advertising_train.csv' and 'advertising_test.csv', ")
